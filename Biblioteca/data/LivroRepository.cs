@@ -12,6 +12,11 @@
           _tabelaLivros.Add(Livro);
         }
         
+        public List<Livro> ObterTodos()
+    {
+        return _tabelaLivros;
+    }
+
 
     }
 }
